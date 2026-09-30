@@ -1,0 +1,4 @@
+when calling report_call.sh, -1 seed val to
+negate seed option. window_size AND overlap
+both set to zero to remove these options, 
+along with k=1

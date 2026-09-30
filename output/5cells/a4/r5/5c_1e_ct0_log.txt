@@ -1,0 +1,85 @@
+====================================================================================================
+AGGLOMERATIVE DUPLICATION CLUSTERING (VERBOSE LOG)
+====================================================================================================
+----------------------------------------------------------------------------------------------------
+--- Merge Step 1 ---
+Pairing: ['2', '3'] -> a1
+
+Newly Created Ancestor 'a1' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    3     3     4     6     6     6     6     6     6      8      9      6      3      3      3      3      3      7     13     13     13     13     13     13     12      8      7      7      7      7      9     11     11     11     11     12     12     10      2      0      0      1      1      1      1      1      1      1      1      1
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a1'):
+   bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+2     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      1      1      1      1      1      1      1      1      1      1      1      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0
+3     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      1      0      0      0      0      0      0      0      0      0      0      0
+
+Optimization Score (Distance d(2,3)): 3.0
+
+Current Matrix State (Active Nodes for next merge):
+       bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+cell#                                                                                                                                                                                                                                                                                                                                                     
+1         0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      3      0      0      0      0      0      0      0      0      0
+4         0     0     0     1     1     1     0     0     0      0      0      0      0      0      0      0      0      2      6      6      6      6      6      6      6      7      7      7      7      7      7      7      7      7      7     10     10      8      4      0      0      1      1      1      1      1      1      1      1      1
+5         0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      4     10     10     10     10     10     10     10     11     11     11     11     11     11     11     14     11     11     14     14     11      4      0      0      1      1      1      1      1      1      1      1      1
+a1        3     3     4     6     6     6     6     6     6      8      9      6      3      3      3      3      3      7     13     13     13     13     13     13     12      8      7      7      7      7      9     11     11     11     11     12     12     10      2      0      0      1      1      1      1      1      1      1      1      1
+
+----------------------------------------------------------------------------------------------------
+--- Merge Step 2 ---
+Pairing: ['4', '5'] -> a2
+
+Newly Created Ancestor 'a2' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      2      6      6      6      6      6      6      6      7      7      7      7      7      7      7      7      7      7     10     10      8      4      0      0      1      1      1      1      1      1      1      1      1
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a2'):
+   bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+4     0     0     0     1     1     1     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+5     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      2      4      4      4      4      4      4      4      4      4      4      4      4      4      4      7      4      4      4      4      3      0      0      0      0      0      0      0      0      0      0      0      0
+
+Optimization Score (Distance d(4,5)): 8.0
+
+Current Matrix State (Active Nodes for next merge):
+       bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+cell#                                                                                                                                                                                                                                                                                                                                                     
+1         0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      3      0      0      0      0      0      0      0      0      0
+a1        3     3     4     6     6     6     6     6     6      8      9      6      3      3      3      3      3      7     13     13     13     13     13     13     12      8      7      7      7      7      9     11     11     11     11     12     12     10      2      0      0      1      1      1      1      1      1      1      1      1
+a2        0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      2      6      6      6      6      6      6      6      7      7      7      7      7      7      7      7      7      7     10     10      8      4      0      0      1      1      1      1      1      1      1      1      1
+
+----------------------------------------------------------------------------------------------------
+--- Merge Step 3 ---
+Pairing: ['1', 'a2'] -> a3
+
+Newly Created Ancestor 'a3' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a3'):
+    bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+1      0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      3      0      0      0      0      0      0      0      0      0
+a2     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      2      6      6      6      6      6      6      6      7      7      7      7      7      7      7      7      7      7     10     10      8      4      0      0      1      1      1      1      1      1      1      1      1
+
+Optimization Score (Distance d(1,a2)): 14.0
+
+Current Matrix State (Active Nodes for next merge):
+       bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+cell#                                                                                                                                                                                                                                                                                                                                                     
+a1        3     3     4     6     6     6     6     6     6      8      9      6      3      3      3      3      3      7     13     13     13     13     13     13     12      8      7      7      7      7      9     11     11     11     11     12     12     10      2      0      0      1      1      1      1      1      1      1      1      1
+a3        0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+----------------------------------------------------------------------------------------------------
+--- Merge Step 4 ---
+Pairing: ['a1', 'a3'] -> a4
+
+Newly Created Ancestor 'a4' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a4'):
+    bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+a1     3     3     4     6     6     6     6     6     6      8      9      6      3      3      3      3      3      7     13     13     13     13     13     13     12      8      7      7      7      7      9     11     11     11     11     12     12     10      2      0      0      1      1      1      1      1      1      1      1      1
+a3     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+Optimization Score (Distance d(a1,a3)): 25.0
+
+FINAL TOTAL DUPLICATIONS: 63.0

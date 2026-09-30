@@ -1,0 +1,73 @@
+====================================================================================================
+PASS 2 VERBOSE LOG (FINAL SA OPTIMUM)
+====================================================================================================
+Initial Matrix (Raw Data):
+       bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+cell#                                                                                                                                                                                                                                                                                                                                                     
+1         3     3     3     3     3     3     3     3     3      4      4      4      4      4      4      4      4      3      3      3      3      3      3      3      3      5      7      7      7      7      9     24     24     14      7      9     10     28     24     21     25     27     30     11     11     13      7      7      7      7
+2         2     2     2     2     2     2     2     2     2      4      4      4      5      5      4      4      3      2      2      2      2      2      2      2      2      5      7      7      7      7      9     23     23     13      9     15     14     31     28     23     27     29     32     13     13     15      9      7      7      7
+3         2     2     2     2     2     2     2     2     2      4      4      4      7      8      6      4      3      2      2      2      2      2      2      2      2      5      7      7      7      7      9     23     23     13      9     15     14     31     28     23     27     29     32     13     13     15      9      7      7      7
+4         2     2     2     2     2     2     2     2     2      4      4      4      4      4      4      4      3      2      2      2      2      2      2      2      2      6      7      7      7      7      9     23     23     13      9     15     14     31     28     23     27     32     35     16     16     18     12     10     11     13
+5         2     2     2     2     2     2     2     2     2      4      4      4      4      4      4      4      3      2      2      2      2      2      2      2      2      6      7      7      7      7      9     23     23     13      9     15     14     37     34     29     34     38     37     13     13     15      9      7      8     10
+
+----------------------------------------------------------------------------------------------------
+--- Merge Step 1 ---
+Pairing: ['2', '3'] -> a1
+
+Newly Created Ancestor 'a1' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    0     0     0     0     0     0     0     0     0      0      0      0      1      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      6      4      3      4      2      2      2      2      2      2      2      2      0      0      0
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a1'):
+   bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+2     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+3     0     0     0     0     0     0     0     0     0      0      0      0      2      3      2      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+Optimization Score (Distance d(2,3)): 3.0
+
+----------------------------------------------------------------------------------------------------
+--- Merge Step 2 ---
+Pairing: ['5', '4'] -> a2
+
+Newly Created Ancestor 'a2' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      2      6      4      3      4      2      2      5      5      2      2      2      2      0      1      3
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a2'):
+   bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+5     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      6      6      6      7      6      2      0      0      0      0      0      0      0
+4     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      3      3      3      3      3      3      3
+
+Optimization Score (Distance d(5,4)): 10.0
+
+----------------------------------------------------------------------------------------------------
+--- Merge Step 3 ---
+Pairing: ['a2', 'a1'] -> a3
+
+Newly Created Ancestor 'a3' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      6      4      3      4      2      2      2      2      2      2      2      2      0      0      0
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a3'):
+    bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+a2     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      3      3      0      0      0      0      0      1      3
+a1     0     0     0     0     0     0     0     0     0      0      0      0      1      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+Optimization Score (Distance d(a2,a1)): 8.0
+
+----------------------------------------------------------------------------------------------------
+--- Merge Step 4 ---
+Pairing: ['1', 'a3'] -> a4
+
+Newly Created Ancestor 'a4' Profile:
+ bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+    0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+
+Normalized Profiles for Paired Cells (Cell - Ancestor 'a4'):
+    bin1  bin2  bin3  bin4  bin5  bin6  bin7  bin8  bin9  bin10  bin11  bin12  bin13  bin14  bin15  bin16  bin17  bin18  bin19  bin20  bin21  bin22  bin23  bin24  bin25  bin26  bin27  bin28  bin29  bin30  bin31  bin32  bin33  bin34  bin35  bin36  bin37  bin38  bin39  bin40  bin41  bin42  bin43  bin44  bin45  bin46  bin47  bin48  bin49  bin50
+1      1     1     1     1     1     1     1     1     1      0      0      0      0      0      0      0      1      1      1      1      1      1      1      1      1      0      0      0      0      0      0      1      1      1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+a3     0     0     0     0     0     0     0     0     0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      6      4      3      4      2      2      2      2      2      2      2      2      0      0      0
+
+Optimization Score (Distance d(1,a3)): 10.0
+
+FINAL TOTAL DUPLICATIONS: 88.0

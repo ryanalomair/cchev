@@ -1,0 +1,6 @@
+--- Vectors in Common with Simulated Solution ---
+Total simulated_matches : 3
+0	0	0	1	1
+1	1	1	1	1
+0	1	1	1	1
+pass_vals : 3

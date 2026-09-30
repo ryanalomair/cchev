@@ -1,0 +1,13 @@
+Processing Window 1 of 1...
+
+==================================================
+Processing Window 1/1: 50 bins
+==================================================
+-----------------------------------
+Agglomerative Total: 92.0
+Simulated Total: 92.0
+-----------------------------------
+
+
+Running Simulated Annealing on Window 1 using baseline: out_tree5_ct0.nwk
+SA Window Complete -> Base Agglomerative: 92.0 | Annealed Minimum: 92.0

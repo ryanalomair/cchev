@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/users/ralomair1/report/bu.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Traceback (most recent call last):
+  File "/home/users/ralomair1/report/sa_search.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
